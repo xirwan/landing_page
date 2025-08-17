@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    height: 64px;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 0 200px;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 120px 200px;
+    gap: 16px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 4px;
+    max-width: 470px;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: initial;
+    font-style: italic;
+    /* initial untuk default value */
+}
+
+.hero-image > img {
+    width: 450px;
+    height: 280px;
+    border-radius: 8px;
+}
+
+.right-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 18px;
+    font-weight: initial;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 32px;
+    font-size: 18px;
+    margin-top: 8px;
+    /* border none untuk menghilangkan style tombol, border-radius untuk membuat desain antar sudut tombol menjadi tumpul atau sebaliknya */
+}
+
+.information {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 60px 200px;
+    text-align: center;
+}
+
+.information-content {
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.avatar {
+    max-width: 200px;
+}
+
+.avatar > img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+}
+
+.avatar-text {
+    font-size: 18px;
+    color: #656b75;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    padding: 120px 200px;
+    text-align: justify;
+}
+
+.quote > p {
+    margin-top: 16px;
+    font-size: 24px;
+    font-style: normal;
+    text-align: right;
+    font-weight: bold;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.action-card {
+    box-sizing: border-box;
+    padding: 40px 200px;
+    width: 938px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+.action-card > button {
+    background-color:#3882F6;
+    color:#E5E7EB;
+    border: 2px solid #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    height: 64px;
+    font-size: 18px;
+    padding: 40px 200px;
+    box-sizing: border-box;
+    text-align: center;
+}
